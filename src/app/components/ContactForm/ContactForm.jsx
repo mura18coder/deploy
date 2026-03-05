@@ -38,7 +38,7 @@ export default function ContactForm() {
     };
 
     return (
-        <section className="min-h-screen bg-[#050c0f] py-20 px-6 sm:px-12 flex items-center justify-center font-sans" id="contacto">
+        <section id="contacto" className="min-h-screen bg-[#050c0f] py-20 px-6 sm:px-12 flex items-center justify-center font-sans" id="contacto">
             <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                 {/* Left Side: Information */}
@@ -47,7 +47,7 @@ export default function ContactForm() {
                         <span className="text-cyan-400 text-sm font-bold tracking-wider uppercase mb-4 block">
                             Contacto
                         </span>
-                        <h2 className="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+                        <h2 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
                             Iniciemos algo <br />
                             <span className="text-[#3b82f6]">grande</span>
                         </h2>

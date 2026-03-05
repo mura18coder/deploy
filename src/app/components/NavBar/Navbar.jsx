@@ -19,11 +19,12 @@ export default function Navbar() {
 
                 {/* LINKS ESCRITORIO (Se ocultan en móvil con 'hidden md:flex') */}
                 <div className="hidden md:flex items-center gap-8">
+
                     <Link
-                        href="#proyectos"
+                        href="#inicio"
                         className="text-sm font-medium text-slate-300 hover:text-white transition-colors"
                     >
-                        Proyectos
+                        Inicio
                     </Link>
                     <Link
                         href="#servicios"
@@ -38,10 +39,16 @@ export default function Navbar() {
                         Sobre Nosotros
                     </Link>
                     <Link
-                        href="#carreras"
+                        href="#proyectos"
                         className="text-sm font-medium text-slate-300 hover:text-white transition-colors"
                     >
-                        Carreras
+                        Proyectos
+                    </Link>
+                    <Link
+                        href="#contacto"
+                        className="text-sm font-medium text-slate-300 hover:text-white transition-colors"
+                    >
+                        Contacto
                     </Link>
                     {/* BOTONES ESCRITORIO */}
                     <div className="hidden md:flex items-center gap-3">

@@ -10,7 +10,7 @@ export default function Hero({
     textoBotonSecundario = "Nuestro Proceso"
 }) {
     return (
-        <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#050c0f] px-6 py-20">
+        <section id='inicio' className=" px-6 py-12 relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#0a161a]">
             {/* Glows de fondo para profundidad */}
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-cyan-500/10 blur-[120px] rounded-full"></div>

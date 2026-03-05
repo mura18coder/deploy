@@ -6,8 +6,8 @@ function Proyectos() {
     return (
 
         <>
-            <div className='max-w-7xl mx-auto px-6 flex flex-col items-center justify-between'>
-                <div className='flex md:flex-row flex-col justify-between items-start md:items-end w-full mb-16 gap-6'>
+            <div id="proyectos" className=' bg-[#050c0f] mx-auto w-full px-6 py-12 flex flex-col items-center justify-between'>
+                <div className='flex md:flex-row flex-col justify-between items-start md:items-end w-3/4 mb-16 gap-6'>
                     <div className='flex flex-col max-w-2xl'>
                         <span className='text-cyan-400 text-xs font-bold tracking-widest uppercase mb-2'>Nuestros Trabajos</span>
                         <h3 className='text-4xl md:text-5xl font-bold text-white mb-6'>Proyectos Destacados</h3>
@@ -24,7 +24,7 @@ function Proyectos() {
 
                 <div className='flex flex-col gap-12 w-full'>
                     {proyectosData.map((proyecto) => (
-                        <CardExtendida 
+                        <CardExtendida
                             key={proyecto.id}
                             titulo={proyecto.titulo}
                             categoria={proyecto.categoria}
